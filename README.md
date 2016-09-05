@@ -1,6 +1,17 @@
-<<<<<<< HEAD
-# react-redux-base
-=======
-# react-redux-api
-React Redux sample project which calls a remote API and updates state and UI
->>>>>>> bf2cd09ffedcb6a60f0a7212e0f6046c6aa2f93f
+
+# Explanation
+
+A sample project which uses actions, reducers, providers and connect to fetch data from remote test API and update the state.
+
+The state changes are then shown on the page.
+
+# Usage 
+
+1. Pull the code
+2. Execute following
+    *  ``` npm install```
+    *  ```webpack```
+    *  ```npm run start```
+
+3. On browser click the button and see the data being populated in the below div.
+ 
