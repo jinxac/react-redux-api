@@ -9,7 +9,7 @@ module.exports= {
       ]
   },
   output:{
-    path : __dirname + '/dst',
+    path : __dirname,
     filename:'./dst/main.js'
   },
   module : {
