@@ -38,6 +38,7 @@ function mapStateToProps(state){
 const mapDispatchToProps = (dispatch) => {
   return {
     onClick: () => {
+      //dispatching action for getting data from API and updating state
       dispatch(fetchData("https://jsonplaceholder.typicode.com/posts"));
     }
   }

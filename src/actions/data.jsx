@@ -1,8 +1,10 @@
+//Action to be dispatched before API call is complete
 export function requestData(){
   return{
     type:'REQUEST_DATA'
   }
 }
+
 
 export function fetchData(url){
   return(dispatch,getState)=>{
@@ -15,6 +17,7 @@ export function fetchData(url){
   }
 }
 
+//Action to be dispatched after API call is complete
 export function receiveData(data){
   return{
     type:'RECEIVED_DATA',
